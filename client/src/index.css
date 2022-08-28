@@ -6,3 +6,7 @@
 .swiper-button-next {
   --swiper-navigation-color: #1f2937;
 }
+
+.swiper-pagination-bullet-active {
+  --swiper-theme-color: #1f2937;
+}
