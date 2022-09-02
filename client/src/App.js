@@ -4,13 +4,13 @@ import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="relative h-screen w-screen overflow-x-hidden">
+    <>
       <Navbar />
-      <div className="lg:px-24 w-full h-auto overflow-hidden">
+      <div className="lg:px-24 w-full h-auto">
         <Banner />
         <Featured />
       </div>
-    </div>
+    </>
   );
 }
 
